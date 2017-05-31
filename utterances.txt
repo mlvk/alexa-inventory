@@ -1,0 +1,15 @@
+StartTracking take inventory
+StartTracking start tracking
+
+NotifyHQ send message {newnote}
+
+TrackItem mark {quantity} {unit} of {ingredient}
+TrackItem mark {quantity} {unit} {ingredient}
+
+AMAZON.StopIntent done
+AMAZON.StopIntent all done
+AMAZON.StopIntent I'm done
+AMAZON.StopIntent ok done
+AMAZON.StopIntent I'm finished
+AMAZON.StopIntent Ok all finished
+AMAZON.StopIntent ok I'm done

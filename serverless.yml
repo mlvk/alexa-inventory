@@ -1,0 +1,11 @@
+service: mlvk-inventory-tracker
+
+provider:
+  name: aws
+  runtime: nodejs6.10
+
+functions:
+  parser:
+    handler: handler.parser
+    events:
+      - alexaSkill

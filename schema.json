@@ -1,0 +1,42 @@
+{
+    "intents": [
+        {
+            "intent": "AMAZON.CancelIntent"
+        },
+        {
+            "intent": "AMAZON.HelpIntent"
+        },
+        {
+            "intent": "AMAZON.StopIntent"
+        },
+        {
+            "intent": "StartTracking"
+        },
+        {
+            "intent": "NotifyHQ",
+            "slots": [
+                {
+                    "name": "newnote",
+                    "type": "note"
+                }
+            ]
+        },
+        {
+            "intent": "TrackItem",
+            "slots": [
+                {
+                    "name": "ingredient",
+                    "type": "items"
+                },
+                {
+                    "name": "quantity",
+                    "type": "AMAZON.NUMBER"
+                },
+                {
+                    "name": "unit",
+                    "type": "unit"
+                }
+            ]
+        }
+    ]
+}
